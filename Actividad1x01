@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Actividad1x01 {
+	// lEE POR TECLADO TRES NÚMEROS ENTEROS
+	// Escribe en consola estos numeros enteros
+	// En una unica línea de texto
+	public static void main(String[] args) {
+		int  numeroA, numeroB, numeroC;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("¿Número Entero A? ");
+		numeroA = teclado.nextInt();
+		System.out.print("¿Número Entero B? ");
+		numeroB = teclado.nextInt();
+		System.out.print("¿Número Entero C? ");
+		numeroC = teclado.nextInt();
+		
+		
+		System.out.print("Los tres numeros enteros son: ");
+		System.out.print(numeroA + ", ");
+		System.out.print(numeroB + " y ");
+		System.out.print(numeroC + ".");
+		
+		
+		System.out.println("\nLos tres numeros enteros son: " + numeroA + ", " + numeroB + " y " + numeroC + ".");
+	}
+	
+
+}
